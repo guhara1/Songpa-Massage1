@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.barogo-songpa.example.com/sitemap.xml
+Sitemap: https://songpa-massage1.pages.dev/sitemap.xml
