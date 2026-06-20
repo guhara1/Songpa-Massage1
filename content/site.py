@@ -9,6 +9,14 @@ PHONE_DISPLAY = "0508-202-4719"
 # 외부 제휴·제작 문의 텔레그램 링크
 TELEGRAM_URL = "https://t.me/googleseolab"
 
+# 검색엔진 사이트 소유확인 — 값을 받은 뒤 채우면 모든 페이지 <head>에 자동 삽입된다.
+NAVER_VERIFY = "7f327c8ac29796a1df48699694e98356e28704a1"
+GOOGLE_VERIFY = ""  # 구글 서치콘솔 'HTML 태그' 확인값을 넣으세요.
+
+# IndexNow 키 — 글 게시 시 빙·네이버 등에 즉시 색인 통보에 사용.
+# build.py 가 루트에 "<INDEXNOW_KEY>.txt" 키 파일을 생성한다.
+INDEXNOW_KEY = "a162d761934d434ab46171941f879043c671687eb1844cc29add855b283ccfac"
+
 # 상단 메뉴 — 하위 메뉴에는 키워드("출장마사지")를 반복하지 않고 지역명·역명만 표시한다.
 NAV = [
     ("홈", "/", []),
